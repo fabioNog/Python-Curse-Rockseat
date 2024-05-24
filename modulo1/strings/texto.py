@@ -8,7 +8,10 @@ nome_completo = "Fabio Nogueira"
 #print(nome.lower())
 
 # Retorna uma posicao da string 
-print(nome[0])
+#print(nome[0])
+
+# Retorna o tamanho da string
+#print(len(nome))
 
 print(nome)
 print(nome_completo)
