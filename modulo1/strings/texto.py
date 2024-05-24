@@ -13,5 +13,13 @@ nome_completo = "Fabio Nogueira"
 # Retorna o tamanho da string
 #print(len(nome))
 
-print(nome)
-print(nome_completo)
+# Retorna  a quantidade de caracter existe na string
+#print(nome.count("F"))
+
+# Retorna  a string codificada
+#print(nome.encode())
+
+# Retorna  a string codificada
+print(nome.encode().decode())
+
+#print(nome)
