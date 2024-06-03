@@ -10,5 +10,10 @@ print(nome_completo.startswith('Fa'))
 
 print(nome_completo.startswith('xFa')) """
 
-print("abc" in nome_completo)
+""" print("abc" in nome_completo) """
 
+def solution(text, ending):
+    return ending in text
+    
+
+print(solution("samurai","ra"))
