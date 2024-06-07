@@ -17,3 +17,13 @@ print("O indice é do elemento 1",indice)
 my_list.insert(2,10)
 
 print("Minha lista 2,10", my_list)
+
+my_list.pop(2)
+
+print("Minha lista pop 2", my_list)
+
+my_list.remove(2)
+
+
+
+print("Minha lista remove true", my_list)
