@@ -25,3 +25,10 @@ print(keys)
 values = my_dictionary.values()
 
 print(values)
+
+
+item = list(my_dictionary.items())
+
+print(item)
+
+print("%s = %s " % (item[0][0],item[0][1]))
